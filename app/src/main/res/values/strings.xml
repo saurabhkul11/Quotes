@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="uesdk__secure_view_tag">uesdk__secure_view</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Addressproof">
+        <item>Electricity Bill</item>
+        <item>Water Bill</item>
+        <item>Piped Gas Bill</item>
+        <item>Telephone Bill(landline)</item>
+        <item>Property or Municipality tax receipt</item>
+        <item>Rental/Leased aggreement</item>
+
+    </string-array>
+
+</resources>

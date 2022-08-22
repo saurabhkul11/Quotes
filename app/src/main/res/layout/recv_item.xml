@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:strokeColor="@color/ColorPrimary"
+    app:strokeWidth="2dp"
+    style="@style/Base.CardView"
+    android:id="@+id/cview"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:backgroundTint="#FFD8D8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Customer ID"
+            android:weightSum="1"
+            android:paddingStart="10dp"
+            android:id="@+id/text_customer"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Client Name"
+            android:weightSum="1"
+            android:paddingStart="10dp"
+            android:id="@+id/text_client"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Phone Number"
+            android:weightSum="1"
+            android:paddingStart="10dp"
+            android:id="@+id/text_phone"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Location"
+            android:weightSum="1"
+            android:paddingStart="10dp"
+            android:id="@+id/text_location"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

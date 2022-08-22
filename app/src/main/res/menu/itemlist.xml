@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:icon="@drawable/file1"
+        android:title="Dashboard"/>
+
+
+    <item android:id="@+id/item2"
+        android:icon="@drawable/file1"
+        android:title="Neo Update"/>
+
+    <item android:id="@+id/item3"
+        android:icon="@drawable/file1"
+        android:title="WFH"/>
+
+    <item android:id="@+id/item4"
+        android:icon="@drawable/file1"
+        android:title="My Works"/>
+
+    <item android:id="@+id/item5"
+        android:icon="@drawable/file1"
+        android:title="Requests"/>
+
+    <item android:id="@+id/item6"
+        android:icon="@drawable/file1"
+        android:title="Refer a buddy"/>
+
+    <item android:id="@+id/item7"
+        android:icon="@android:drawable/btn_star"
+        android:title="Holiday"/>
+
+    <item android:id="@+id/item8"
+        android:icon="@drawable/ic_person"
+        android:title="My Profile"/>
+
+
+
+</menu>
